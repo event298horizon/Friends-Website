@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+.nav{ 
+    display:flex;
+    justify-content: space-around;
+    background:rgba(128, 128, 128, 0.52);
+}
+/* .nav .element:nth-child(4){ */
+    /* order: -1; */
+/* } */
+.nav p:last-child{
+    order: 7;
+}
+.nav p a{
+    display: inline-block;
+    text-decoration: none;
+    color:whitesmoke;
+    padding:1.2rem 2.8rem;
+    font-family:monospace;
+    font-size:1.5rem;
+    letter-spacing:0.3rem;
+    transition:all 0.3s;
+}
+.nav a:hover{
+    background:rgba(255, 255, 255, 0.212);
+}
+.friends-img{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('./friends-img.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+.friends-img h1{
+    color:rgb(255, 255, 255);
+    background:rgba(128, 128, 128, 0.493);
+    padding:1.3rem;
+    font-size:3rem;
+    letter-spacing:1rem;
+    font-family:monospace;
+    display:inline-block;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
+    transition:all 0.3s ease;
+}
+.friends-img h1:hover{
+    opacity:0;
+    color:rgba(0, 0, 0, 0);
+}
+.about{
+    height:50vh;
+    width:100%;
+    background:rgba(12, 11, 11, 0.507);
+    padding:2rem;
+    box-sizing:border-box;
+}  
+.about .h1{
+   padding:1.7rem;
+   display:flex;
+   justify-content:center; 
+   font-family:monospace;
+   font-size:1.3rem;
+   letter-spacing:0.3rem;
+}
+.about .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.ross{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./ross.png');
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.about-ross{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    transition: all 0.5s ease;
+    bottom:0;    
+}
+.about-ross:hover{
+    opacity:0;
+    color:rgba(0, 0, 0, 0);
+}
+.ross .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+}
+ .ross .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.rachel{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./rachel.jpeg');
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.about-rachel{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;    
+    transition: all 0.5s ease;
+}
+.rachel .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+ }
+.rachel .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.chandler{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./chander.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative;    
+}
+.about-chandler{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;    
+    transition: all 0.5s ease;
+}
+.chandler .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+ }
+.chandler .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.monica{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./monica.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.about-monica{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;    
+    transition: all 0.5s ease;
+}
+.monica .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+ }
+.monica .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.joey{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./joeyy.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.about-joey{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    transition: all 0.5s ease;
+    bottom:0;    
+}
+.joey .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+ }
+.joey .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+
+}
+.phoebe{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./phoebe.jpeg');
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.about-phoebe{
+    height:50vh;
+    width:100%;
+    background:rgba(128, 128, 128, 0.52);
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;    
+    transition: all 0.5s ease;
+}
+.phoebe .h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+ }
+.phoebe .p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.hover:hover{
+    opacity:0;
+}
+.footer{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.803),rgba(0, 0, 0, 0.803)), url(./footer.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;
+}
+.button{
+    position:fixed;
+    height:5rem;
+    width:5rem;
+    bottom:5%;
+    right:2%;
+    background:#8f3208;
+    border-radius:50%;
+    z-index:5;
+    box-shadow:0.3rem 0.3rem rgb(95, 94, 94);
+    display:grid;
+    place-items:center;
+}
+.button p{
+    transition:all 0.5s ease;
+    color:rgb(143,50,8);
+    font-family:monospace;
+    font-weight:bolder;
+    font-size:1.5rem;
+}
+.button:hover p{
+    color:black;
+}
+.button:active{
+   bottom:4.5%;
+   right:1.5%;
+   box-shadow:0.1rem 0.1rem grey;
+   background:#7e2d07;
+
+}
+.more{
+    height:10%;
+    width:30%;
+    background:none;
+    position:absolute;
+    bottom:3%;
+    left:2%;
+    border:0.2rem solid whitesmoke;
+    padding:1rem 3rem 3rem 3rem;
+}
+.more p{
+    color:white;
+    line-height:2rem;
+    letter-spacing:0.25rem;
+    font-family:monospace;
+    font-size:1.2rem;
+}
+.more p a{
+    color:greenyellow;
+    text-decoration:none;
+}
+.more p a:hover{
+    border:0.1rem solid white;
+}
