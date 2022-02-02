@@ -366,7 +366,7 @@
     .wave {
         height: 100%;
         width: 100%;
-        background: rgb(83, 26, 0);
+        background: rgb(39, 39, 39);
         position: absolute;
         top:0%;
         animation-duration: 2s;
@@ -393,6 +393,7 @@
         font-family: monospace;
         background: rgb(16, 226, 16);
         border-radius: 50%;
+        border: none;
         position: absolute;
         top: 80%;
         left: 50%;
