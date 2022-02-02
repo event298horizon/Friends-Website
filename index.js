@@ -14,3 +14,11 @@ function changeOrder(element){
     console.log(order);
 }
 
+const hiddenButton = document.querySelector('.displayNoneButton');
+const wave = document.querySelector('.wave');
+
+hiddenButton.addEventListener('click' , () => {
+  // hiddenText.style.display = 'block';
+  wave.style = 'animation-name: window';
+
+})
