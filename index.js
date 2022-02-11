@@ -1,7 +1,6 @@
 window.addEventListener('load', () => {
     
     var navi = document.querySelectorAll('.nav .element');
-    // console.log(navi);
     navi.forEach(elem => {
         changeOrder(elem)
     })
@@ -18,7 +17,6 @@ const hiddenButton = document.querySelector('.displayNoneButton');
 const wave = document.querySelector('.wave');
 
 hiddenButton.addEventListener('click' , () => {
-  // hiddenText.style.display = 'block';
   wave.style = 'animation-name: window';
 
 })
