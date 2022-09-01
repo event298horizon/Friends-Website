@@ -6,11 +6,8 @@
 .nav{ 
     display:flex;
     justify-content: space-around;
-    background:rgba(128, 128, 128, 0.52);
+    background:#80808085;
 }
-/* .nav .element:nth-child(4){ */
-    /* order: -1; */
-/* } */
 .nav p:last-child{
     order: 7;
 }
@@ -25,18 +22,18 @@
     transition:all 0.3s;
 }
 .nav a:hover{
-    background:rgba(255, 255, 255, 0.212);
+    background:#ffffff36;
 }
-.friends-img{
+.header{
     height:100vh;
     width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('./images/friends-img.jpg');
+    background-image:linear-gradient(90deg,#000000b3,#000000b3), url('./images/friends-img.jpg');
     background-size: cover;
     background-attachment:fixed;
 }
-.friends-img h1{
-    color:rgb(255, 255, 255);
-    background:rgba(128, 128, 128, 0.493);
+.header h1{
+    color:#ffffff;
+    background:#8080807e;
     padding:1.3rem;
     font-size:3rem;
     letter-spacing:1rem;
@@ -48,18 +45,18 @@
     transform: translate(-50%);
     transition:all 0.3s ease;
 }
-.friends-img h1:hover{
+.header h1:hover{
     opacity:0;
-    color:rgba(0, 0, 0, 0);
+    color:#00000000;
 }
 .about{
     height:50vh;
     width:100%;
-    background:rgba(12, 11, 11, 0.507);
+    background:#0c0b0b81;
     padding:2rem;
     box-sizing:border-box;
 }  
-.about .h1{
+.headingAbout{
    padding:1.7rem;
    display:flex;
    justify-content:center; 
@@ -67,210 +64,66 @@
    font-size:1.3rem;
    letter-spacing:0.3rem;
 }
-.about .p1{
+.aboutAbout{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.friend{
+    height:100vh;
+    width:100%;
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;    
+}
+.aboutFriend{
+    height:50vh;
+    width:100%;
+    background:#80808085;
+    padding:3.1rem 6.2rem;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;    
+    transition: all 0.5s ease;
+}
+.aboutFriend:hover{
+    opacity:0;
+}
+.h1{
+    padding:0px 0 1.2rem 0;
+    display:flex;
+    justify-content:center; 
+    font-family:monospace;
+    font-size:1.2rem;
+    letter-spacing:0.3rem;
+}
+.p1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2rem;
     text-align: center;
 }
 .ross{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/ross.png');
-    background-attachment:fixed;
-    background-size: cover;
-    position:relative;    
-}
-.about-ross{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    transition: all 0.5s ease;
-    bottom:0;    
-}
-.about-ross:hover{
-    opacity:0;
-    color:rgba(0, 0, 0, 0);
-}
-.ross .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
-}
- .ross .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/ross.png');  
 }
 .rachel{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/rachel.jpeg');
-    background-attachment:fixed;
-    background-size: cover;
-    position:relative;    
-}
-.about-rachel{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    bottom:0;    
-    transition: all 0.5s ease;
-}
-.rachel .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
- }
-.rachel .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/rachel.jpeg');
 }
 .chandler{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/chander.jpg');
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    background-size: cover;
-    position:relative;    
-}
-.about-chandler{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    bottom:0;    
-    transition: all 0.5s ease;
-}
-.chandler .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
- }
-.chandler .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/chander.jpg');
 }
 .monica{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/monica.jpg');
-    background-attachment:fixed;
-    background-size: cover;
-    position:relative;    
-}
-.about-monica{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    bottom:0;    
-    transition: all 0.5s ease;
-}
-.monica .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
- }
-.monica .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/monica.jpg');   
 }
 .joey{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/joeyy.jpg');
-    background-attachment:fixed;
-    background-size: cover;
-    position:relative;    
-}
-.about-joey{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    transition: all 0.5s ease;
-    bottom:0;    
-}
-.joey .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
- }
-.joey .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
-
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/joeyy.jpg');   
 }
 .phoebe{
-    height:100vh;
-    width:100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/phoebe.jpeg');
-    background-attachment:fixed;
-    background-size: cover;
-    position:relative;    
-}
-.about-phoebe{
-    height:50vh;
-    width:100%;
-    background:rgba(128, 128, 128, 0.52);
-    padding:3.1rem 6.2rem;
-    box-sizing:border-box;
-    position:absolute;
-    bottom:0;    
-    transition: all 0.5s ease;
-}
-.phoebe .h1{
-    padding:0px 0 1.2rem 0;
-    display:flex;
-    justify-content:center; 
-    font-family:monospace;
-    font-size:1.2rem;
-    letter-spacing:0.3rem;
- }
-.phoebe .p1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2rem;
-    text-align: center;
-}
-.hover:hover{
-    opacity:0;
+    background-image:linear-gradient(90deg,#00000080,#000000b3), url('./images/phoebe.jpeg');  
 }
 .footer{
     height:100vh;
     width:100%;
-    background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.803),rgba(0, 0, 0, 0.803)), url(./images/footer.jpg);
+    background-image:linear-gradient(0deg,#000000cd,#000000cd), url(./images/footer.jpg);
     background-attachment:fixed;
     background-size: cover;
     position:relative;
@@ -284,13 +137,18 @@
     background:#8f3208;
     border-radius:50%;
     z-index:5;
-    box-shadow:0.3rem 0.3rem rgb(95, 94, 94);
+    box-shadow:0.3rem 0.3rem #5f5e5e;
     display:grid;
     place-items:center;
 }
+.buttonTap{
+    position: absolute;
+    right: 93%;
+    cursor: pointer;
+}
 .button p{
     transition:all 0.5s ease;
-    color:rgb(143,50,8);
+    color:#8f3208;
     font-family:monospace;
     font-weight:bolder;
     font-size:1.5rem;
@@ -303,17 +161,21 @@
    right:1.5%;
    box-shadow:0.1rem 0.1rem grey;
    background:#7e2d07;
-
+}
+.buttonTap:active{
+    right: 92.5%;
 }
 .more{
     height:10%;
-    width:30%;
+    width:22%;
     background:none;
     position:absolute;
     bottom:3%;
-    left:2%;
+    left:50%;
+    transform:translateX(-50%);
     border:0.2rem solid whitesmoke;
     padding:1rem 3rem 3rem 3rem;
+    display: none;
 }
 .more p{
     color:white;
