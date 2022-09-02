@@ -20,6 +20,13 @@ function tap() {
   //   console.log(show);
   }
 
+function seasons() {
+    let dropdown = document.querySelector(".dropdown-menu");
+    let show = dropdown.style.display?"":"block";
+    dropdown.style.display = `${show}`;
+}
+
+
 const hiddenButton = document.querySelector('.displayNoneButton');
 const wave = document.querySelector('.wave');
 

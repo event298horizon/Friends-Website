@@ -6,16 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
+
   <title>Friends:The Unofficial Page</title>
 </head>
 
 <body>
+  <!-- Responsive Part -->
   <div class="displayNone">
     <p class="displayNoneText">Please open this website in your Laptop/Desktop</p>
     <div class="wave"></div>
   </div>
   <button class="displayNoneButton">Tap</button>
+
+  <!-- Normal Part -->
   <a href="#header" class="btn">
     <div class="button">
       <p>TOP</p>
@@ -31,6 +36,24 @@
       <p class="element"><a href="#phoebe">PHOEBE</a></p>
       <p><a href="#footer">BOTTOM</a></p>
     </nav>
+    <!-- Dropdown button -->
+    <div class="dropdown">
+      <button class="dropdownButton" onclick="seasons()" >
+        Watch Online
+      </button>
+      <div type="none" class="dropdown-menu">
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-1-1700/" target="_blank">Season 01</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-2-1701/" target="_blank">Season 02</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-3-1702/" target="_blank">Season 03</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-4-2622/" target="_blank">Season 04</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-5-2630/" target="_blank">Season 05</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-6-2633/" target="_blank">Season 06</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-7-2806/" target="_blank">Season 07</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-8-2807/" target="_blank">Season 08</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-9-2876/" target="_blank">Season 09</a>
+        <a class="dropdown-item" href="https://ww2.soap2dayhd.co/film/friends-season-10-2877/" target="_blank">Season 10</a>
+      </div>
+    </div>
     <h1>FRIENDS</h1>
   </header>
   <div class="about">
@@ -180,7 +203,9 @@
     </div>
   </div>
   <footer class="footer" id="footer">
-    <div class="button buttonTap" id="tap" onclick="tap()"><p>TAP</p></div>
+    <div class="button buttonTap" id="tap" onclick="tap()">
+      <p>TAP</p>
+    </div>
     <div class="more">
       <p>
         Saurabh Awasthi<br />
@@ -190,6 +215,7 @@
     </div>
   </footer>
   <script src="app.js"></script>
+
 </body>
 
 </html>
