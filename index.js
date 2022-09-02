@@ -20,3 +20,11 @@ hiddenButton.addEventListener('click' , () => {
   wave.style = 'animation-name: window';
 
 })
+
+
+function tap() {
+    let tap = document.querySelector(".more");
+    let show = tap.style.display?"":"block";
+    tap.style.display = `${show}`;
+  //   console.log(show);
+  }
